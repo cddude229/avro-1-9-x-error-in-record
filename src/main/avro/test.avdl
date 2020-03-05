@@ -1,0 +1,7 @@
+protocol TestProtocol {
+    error MyError {}
+
+    record MyRecord {
+      MyError someError;
+    }
+}
